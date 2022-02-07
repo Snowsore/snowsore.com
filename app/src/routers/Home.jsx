@@ -10,9 +10,8 @@ export default function Routers() {
           className="w-full h-full"
           src="https://www.youtube.com/embed/dQw4w9WgXcQ"
           title="YouTube video player"
-          frameborder="0"
+          frameBorder="0"
           allow="fullscreen; accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
         />
       </Box>
     </Frame>
