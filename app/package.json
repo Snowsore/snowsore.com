@@ -15,7 +15,7 @@
   },
   "scripts": {
     "start": "craco start",
-    "build": "craco build",
+    "build": "craco build && rm -rf ../server/public && mv ./build ../server/public",
     "test": "craco test",
     "eject": "react-scripts eject",
     "tailwind": "tailwindcss -i ./src/input.css -o ./public/output.css --watch"
