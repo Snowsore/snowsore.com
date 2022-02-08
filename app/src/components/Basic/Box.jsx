@@ -1,6 +1,6 @@
 export default function Box(props) {
   return (
-    <div className="border border-red-200">
+    <div className="border border-red-200 shadow">
       <div className="w-full h-200 p-2 bg-red-400 text-xl font-semibold text-white">
         {props.title}
       </div>
