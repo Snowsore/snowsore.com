@@ -4,7 +4,7 @@ const express = require("express");
 const app = express();
 const session = require("express-session");
 
-app.use(express.static("public"));
+app.use(express.static("../app/build"));
 app.use(express.json());
 
 app.use(
